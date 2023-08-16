@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --text: #000305;
+  --background: #fafdff;
+  --accent: #159ce5;
+
+  --primary: #81cbf3;
+  --secondary: #b5d9ed;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+
+  font-family: "Raleway", sans-serif;
+  background-color: var(--background);
+  font-variant-numeric: lining-nums proportional-nums;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
